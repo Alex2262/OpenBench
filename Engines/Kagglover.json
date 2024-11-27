@@ -1,5 +1,5 @@
 {
-    "private" : false,
+    "private" : true,
     "nps"     : 850000,
     "source"  : "https://github.com/lucametehau/Kagglover",
 
@@ -13,7 +13,7 @@
     "test_presets" : {
 
         "default" : {
-            "base_branch"     : "master",
+            "base_branch"     : "main",
             "book_name"       : "Pohl.epd",
             "test_bounds"     : "[0.00, 5.00]",
             "test_confidence" : "[0.05, 0.05]",
