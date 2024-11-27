@@ -4,9 +4,9 @@
     "source"  : "https://github.com/lucametehau/Kagglover",
 
     "build" : {
-        "path"      : "src",
+        "path"      : "src_nnue",
         "compilers" : ["clang++"],
-        "cpuflags"  : [],
+        "cpuflags"  : [""],
         "systems"   : ["Linux", "Windows", "Darwin"]
     },
 
