@@ -1,12 +1,12 @@
 {
     "private" : true,
-    "nps"     : 850000,
+    "nps"     : 2000000,
     "source"  : "https://github.com/lucametehau/Kagglover",
 
     "build" : {
         "path"      : "src_nnue",
         "compilers" : ["clang++"],
-        "cpuflags"  : [""],
+        "cpuflags"  : ["popcnt"],
         "systems"   : ["Linux", "Windows", "Darwin"]
     },
 
