@@ -6,7 +6,7 @@
     "build" : {
         "path"      : "src_nnue",
         "compilers" : ["clang++"],
-        "cpuflags"  : ["popcnt"],
+        "cpuflags"  : ["POPCNT"],
         "systems"   : ["Linux", "Windows", "Darwin"]
     },
 
